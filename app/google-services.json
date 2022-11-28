@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "455669785200",
+    "firebase_url": "https://pruebafinal-af74e-default-rtdb.firebaseio.com",
+    "project_id": "pruebafinal-af74e",
+    "storage_bucket": "pruebafinal-af74e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455669785200:android:c4e7dee5f2df2b2d510ab5",
+        "android_client_info": {
+          "package_name": "com.hola.pruebafinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455669785200-gg14ob80p70e7mch3muaiidg66j62pou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hola.pruebafinal",
+            "certificate_hash": "ee768f4b8dac5380eb0b8632859d668c9f1f142f"
+          }
+        },
+        {
+          "client_id": "455669785200-ea0u1dntkce6vigkjr96enet578v85k3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANpOoFgs93ODAkpXdh93zprSy90HztfZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455669785200-ea0u1dntkce6vigkjr96enet578v85k3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

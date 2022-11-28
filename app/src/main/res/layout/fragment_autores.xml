@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/autores"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coloresss"
+    tools:context=".Autores">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="45dp"
+        android:text="Autores"
+        android:textColor="@android:color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <GridView
+        android:id="@+id/gridAutores"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="100dp"
+        android:horizontalSpacing="4dp"
+        android:verticalSpacing="4dp"
+        android:numColumns="2"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="128dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="300dp"
+        android:src="@drawable/panda" />
+</FrameLayout>

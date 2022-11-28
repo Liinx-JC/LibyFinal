@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listaLibros"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coloresss"
+    tools:context=".ListaLibros">
+
+    <SearchView
+        android:id="@+id/filtrado"
+        android:background="@color/grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="45dp"
+        android:text="Libros"
+        android:textColor="@android:color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerLibro"
+        android:layout_width="match_parent"
+        android:layout_height="636dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="100dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="128dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="300dp"
+        android:src="@drawable/panda" />
+
+</FrameLayout>

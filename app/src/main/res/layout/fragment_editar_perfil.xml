@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/editarPerfil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/coloresss"
+    tools:context=".EditarPerfil">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="30dp"
+        android:text="Escribe aquí tu descripción:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtDescrip"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="15sp"
+        android:ems="10"
+        android:hint="Añadir Descripción"
+        android:inputType="textImeMultiLine" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="15sp"
+        android:text="Escribe tu nombre:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="15sp"
+        android:hint="Ingrese su nombre" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="15sp"
+        android:text="Escribe tu apellido:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:inputType="textPersonName"
+        android:hint="Ingrese su apellido" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="15sp"
+        android:text="Escribe tu telefono/celular:"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:inputType="textPersonName"
+        android:hint="Insegre su numero "/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15sp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="Escribe tu correo:" />
+    <EditText
+        android:id="@+id/edtcorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:inputType="textPersonName"
+        android:hint="Insegre su correo "/>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="Guardar Cambios" />
+
+
+</LinearLayout>

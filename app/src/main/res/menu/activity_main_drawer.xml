@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/perfil"
+            android:icon="@drawable/person_fill0_wght400_grad0_opsz48"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/listaLibreria"
+            android:icon="@drawable/local_library_black_24dp"
+            android:title="Librerías" />
+        <item
+            android:id="@+id/listaLibros"
+            android:icon="@drawable/library_books_fill0_wght400_grad0_opsz48"
+            android:title="Libros" />
+        <item
+            android:id="@+id/autores"
+            android:icon="@drawable/people_black_24dp"
+            android:title="Autores" />
+        <item
+            android:id="@+id/googleMaps"
+            android:icon="@drawable/location_on_fill0_wght400_grad0_opsz48"
+            android:title="Maps" />
+    </group>
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/listaLibreria">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.hola.pruebafinal.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.hola.pruebafinal.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.hola.pruebafinal.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/listaLibros"
+        android:name="com.hola.pruebafinal.ListaLibros"
+        android:label="fragment_lista_libros"
+        tools:layout="@layout/fragment_lista_libros" />
+    <fragment
+        android:id="@+id/listaLibreria"
+        android:name="com.hola.pruebafinal.ListaLibreria"
+        android:label="fragment_lista_libreria"
+        tools:layout="@layout/fragment_lista_libreria" />
+    <fragment
+        android:id="@+id/autores"
+        android:name="com.hola.pruebafinal.Autores"
+        android:label="fragment_autores"
+        tools:layout="@layout/fragment_autores" />
+    <fragment
+        android:id="@+id/perfil"
+        android:name="com.hola.pruebafinal.Perfil"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" >
+        <action
+            android:id="@+id/action_perfil_to_editarPerfil"
+            app:destination="@id/editarPerfil" />
+    </fragment>
+    <fragment
+        android:id="@+id/editarPerfil"
+        android:name="com.hola.pruebafinal.EditarPerfil"
+        android:label="fragment_editar_perfil"
+        tools:layout="@layout/fragment_editar_perfil" />
+    <fragment
+        android:id="@+id/googleMaps"
+        android:name="com.hola.pruebafinal.GoogleMaps"
+        android:label="fragment_google_maps"
+        tools:layout="@layout/fragment_google_maps" />
+</navigation>
